@@ -223,9 +223,9 @@ body {
   }
   
 
-  @media (max-width:800px) {
+  @media (max-width:960px) {
            .image3{
-            flex-wrap: wrap;
+            
            }
   
   
@@ -244,7 +244,7 @@ body {
 
 
   .image2 {
-    width: 40%;
+    width: 550px;
     height: 400px;
     background: blueviolet;
     background: url(img/amg.jpg);
@@ -332,10 +332,10 @@ body {
   
   
   .image3 {
-    width: 40%;
+    width: 550px;
     height: 400px;
     background: blueviolet;
-    margin-top: auto;
+    margin-top: 140px;
     background-size: cover;
     background: url(img/img.jpg);
     background-position: center;
