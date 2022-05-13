@@ -219,6 +219,7 @@ body {
     max-width: 100%;
     justify-content: space-between;
     margin-top: 20px;
+    flex-wrap: wrap;
   }
   .image2 {
     width: 600px;
