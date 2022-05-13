@@ -154,17 +154,29 @@ body {
     background: url(img/omg.jpg);
     margin-top: 25px;
 
+
   }
   
   .ombre {
     height: 336px;
-    max-width: 50%;;
+    max-width: 100%;
     background: transparent;
     background-color: rgba(0, 0, 0, 0.44);
     margin-left: 50%;
     color: white;
+
   
   }
+
+  @media (max-width:800px) {
+      .ombre{
+          margin-left: 0%;
+        
+      }
+    
+  }
+
+
   
   
   .txt1{
@@ -211,26 +223,41 @@ body {
   }
   
 
-
+  @media (max-width:800px) {
+           .image3{
+            flex-wrap: wrap;
+           }
+  
+  
+}
   
   .img {
    height: auto;
+   max-width: 100%;
     display: flex;
-    max-width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 20px;
     flex-wrap: wrap;
+
+
   }
+
+
   .image2 {
-    width: 600px;
-    height: 450px;
+    width: 40%;
+    height: 400px;
     background: blueviolet;
     background: url(img/amg.jpg);
     background-position: center;
+    background-size: cover;
   }
   
   .direction{
       margin-top: 200px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      justify-content: space-between;
   }
   .rond{
       width: 40px;
@@ -249,17 +276,19 @@ body {
       background-position: center;
       background-size: contain;
       background-color: rgba(91, 27, 173, 1);
-      margin-left: 480px;
       border-radius: 20px;
+      margin-right: 20px;
+
   }
   
   .rec1 {
     height: 126px;
-    width: 600px;
+    width: 100%;
     background: rgba(91, 27, 173, 1);
-    margin-top: 150px;
+    margin-top: 100px;
     color: white;
   }
+
   .haut{
       display: flex;
       justify-content: space-between;
@@ -303,16 +332,19 @@ body {
   
   
   .image3 {
-    width: 600px;
-    height: 450px;
+    width: 40%;
+    height: 400px;
     background: blueviolet;
-
+    margin-top: auto;
+    background-size: cover;
     background: url(img/img.jpg);
     background-position: center;
   }
   
   .direction1{
-      margin-top: 200px;  
+      margin-top: 200px; 
+      display: flex;
+      justify-content: space-between; 
   }
   .rond2{
       width: 40px;
@@ -321,7 +353,10 @@ body {
       background-position: center;
       background-size: contain;
       background-color: rgba(91, 27, 173, 1);
+      border-radius: 40%;
+      align-items: center;
       border-radius: 20px;
+      justify-content: space-between;
   }
   
   .rond3{
@@ -332,14 +367,16 @@ body {
       background-size: contain;
       background-color: rgba(91, 27, 173, 1);
       border-radius: 20px;
-      margin-left: 480px;
+      margin-right: 20px;
+
+
   }
   
   .rec2 {
     height: 126px;
-    width: 600px;
+    width: 100%;
     background: rgba(91, 27, 173, 1);
-    margin-top: 150px;
+    margin-top: 100px;
     color: white;
   }
 
