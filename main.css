@@ -223,8 +223,10 @@ body {
   }
   
 
-  @media (max-width:960px) {
+  @media (max-width:1200px) {
            .image3{
+               flex-wrap: wrap;
+               margin-top: 140px;
             
            }
   
@@ -250,6 +252,7 @@ body {
     background: url(img/amg.jpg);
     background-position: center;
     background-size: cover;
+    justify-content: space-around;
   }
   
   .direction{
@@ -335,10 +338,10 @@ body {
     width: 550px;
     height: 400px;
     background: blueviolet;
-    margin-top: 140px;
     background-size: cover;
     background: url(img/img.jpg);
     background-position: center;
+    justify-content: space-around;
   }
   
   .direction1{
@@ -386,15 +389,17 @@ body {
     height: auto;
     width: 100%;
     display: flex;
+    align-items: center;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-right: 2px;
-    margin-top: 150px;
+    margin-top: 200px;
+    margin-left: 3.5%;
   }
   
   .txt {
     font-size: 20px;
     font-weight: bold;
-    margin-left: 3.5%;
   }
   
   .article {
@@ -411,6 +416,7 @@ body {
     max-width: 100%;
     margin-left: 3.5%;
     display: flex;
+    flex-wrap: wrap;
     margin-top: 80px;
 
   }
@@ -418,13 +424,13 @@ body {
   .client h3 {
     margin-top: -50px;
     font-weight: bold;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   
   .AVISE{
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: space-around;
   }
   
   
@@ -437,7 +443,7 @@ body {
   .AVISE1{
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: space-around;
   }
   
   .avis1 {
@@ -455,7 +461,7 @@ body {
   .AVISE2{
       display: flex;
       align-items: center;
-   justify-content: space-between;
+   justify-content: space-around;
   }
   .avis2 {
     height: 150px;
@@ -485,6 +491,16 @@ body {
     margin-left: 130px;
     background-color: rgba(80, 20, 128, 1);
   }
+
+  @media (max-width:1200px) {
+    .photo {
+        flex-wrap: wrap;
+        margin-top: 100px;
+     
+    }
+
+
+}
   
   .photo {
     height: 75vh;
@@ -493,7 +509,9 @@ body {
     margin-left: 50px;
     background-color: black;
     background-image: url(img/tata.jpg);
+    background-size: cover;
   }
+
   
   .nom {
     height: 30px;
