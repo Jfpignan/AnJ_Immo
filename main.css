@@ -6,7 +6,9 @@ body {
   }
   
   header {
-    height: 832px;
+    height: auto;
+    margin: 3.5%;
+    max-width: 100%;
   }
   
   header nav {
@@ -14,31 +16,37 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
+    align-items: center;
+
   }
   
   header nav a {
     color: rgba(80, 20, 128, 1);
     text-decoration: none;
-    margin-right: 15px;
+    margin-right: 10px;
+
+
   }
   header nav a:hover {
     color: rgba(235, 116, 29, 1);
   }
   
   .logo {
-    margin-left: 2%;
+    align-items: center;
+
   }
   
   .onglets {
-    margin-left: 400px;
-    margin-top: 2%;
+    padding: 20px 10px;
+    justify-content: center;
     font-weight: bold;
+    display: inline-block;
   }
   
   .search {
     font-weight: bold;
     font-family: "Raleway", sans-serif;
-    color: rgba(196, 196, 196, 0.22);
+    color: rgba(19, 7, 7, 0.22);
     height: 40px;
     border-radius: 30px;
     border: 2px solid rgba(133, 130, 130, 1);
@@ -48,143 +56,82 @@ body {
   
   
   .accueil {
-    width: 190vh;
-    height: 45vh;
-    background-color: black;
+    max-width: 100%;
+    height: 400px;
     color: white;
     border-radius: 30px;
-    margin: 3.5%;
     margin-top: auto;
     background-image: url(img/ImageG.jpg);
     background-position: center;
     background-size: cover;
+    align-items: center;
   }
-  
-  .accueil2{
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  
-  
-  
+
   .transparent {
     background: transparent;
     background: rgba(0, 0, 0, 0.44);
-    width: 190vh;
-    height: 45vh;
+    max-width: 100%;
+    height: 400px;
     border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
+  header h1
+  {
+  font-size: 50px;
+  }
+  
+
+  .accueil2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: -20px -20px ;
+  }
+  
   
   .image {
     width: 300px;
     height: 300px;
-    display: flex;
-    float: right;
-    padding: 30px;
+    padding: 20px;
     background-image: url(img/abalo.jpg);
     background-size: cover;
-    margin-top: -30px;
-    margin-right: 230px;
+
   }
   
   .text{
       text-align: center;
       align-items: center;
-      }
   
-  header h1
-  {
-  font-size: 50px;
   }
+  
   .text1 {
-    margin-left: 3.5%;
     font-weight: bold;
     font-size: 20px;
   }
+
   .dis {
-    height: 54px;
-    width: 163px;
+    height: 50px;
+    width: 130px;
     background-color: rgba(68, 79, 182, 1);
     color: white;
     border-radius: 10px;
     border: 1px rgba(68, 79, 182, 1);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
   }
+
   .dis:hover {
     color: rgba(235, 116, 29, 1);
   }
   
   .offre {
-    margin-top: -130px;
-  }
-  
-  .exclu {
-    width: 190vh;
-    height: 50vh;
-    background: blueviolet;
-    margin: 3.5%;
-    background: url(img/omg.jpg);
-    margin-top: 25px;
-  }
-  
-  .ombre {
-    height: 50vh;
-    width: 90.5vh;
-    background: transparent;
-    background-color: rgba(0, 0, 0, 0.44);
-    margin-left: 99.5vh;
-    color: white;
-  
-  
-  }
-  
-  
-  .txt1{
-      margin-left: 50px;
-      justify-content: center;
-      display: flex;
-      margin-left: -200px;
-  }
-  
-  .gros{
-  font-size: 25px;
-  font-weight: bold;
-  }
-  
-  .bas{
-  display: flex;
-  }
-  
-  .p{
-      height: 50px;
-      width: 50px;
-      background-color: white;
-      border-radius: 25px;
-      margin-top: 20px;
-      text-align: center;
-      color: red;
-  
-  }
-  
-  .d{
-      height: 50px;
-      width: 90px;
-      margin-left: 50px;
-      background: url(droite.svg);
-      background-color: white;
-      background-position: right;
-      background-size: 40px;
-      font-size: 15px;
-      font-weight: bold;
-      color: rgba(68, 79, 182, 1);
-     margin-top: 20px;
-  
-  
+      height: auto;
+      margin: 3.5%;
+
+
   }
   
   .tx {
@@ -192,10 +139,79 @@ body {
     font-size: 25px;
     font-weight: bold;
   }
+
+  .exclu {
+    max-width: 100%;
+    height: 336px;
+    background: blueviolet;
+    background: url(img/omg.jpg);
+    margin-top: 25px;
+
+  }
+  
+  .ombre {
+    height: 336px;
+    max-width: 50%;;
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.44);
+    margin-left: 50%;
+    color: white;
+  
+  }
+  
+  
+  .txt1{
+      margin-top: 5%;
+      margin-left: 50px;
+      justify-content: center;
+      display: flex;
+      margin-left: -200px;
+  }
+  
+  
+  .gros{
+  font-size: 25px;
+  font-weight: bold;
+  }
+  
+  
+  .bas{
+      display: flex;
+
+  }
+  
+  .p{
+      height: 50px;
+      width: 50px;
+      background-color: white;
+      border-radius: 25px;
+      text-align: center;
+      color: red;
+      margin-right: 60px;
+  
+  }
+
+  .d{
+      height: 50px;
+      width: 50px;
+      background: url(droite.svg);
+      background-color: white;
+      background-position: center;
+      background-size: 40px;
+      border-radius: 15px;
+      margin-left: 60px;
+  
+  }
+  
+
+
   
   .img {
-    margin-left: 3.5%;
+   height: auto;
     display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
   }
   .image2 {
     width: 600px;
@@ -282,7 +298,7 @@ body {
     width: 600px;
     height: 450px;
     background: blueviolet;
-    margin-left: 55px;
+
     background: url(img/img.jpg);
     background-position: center;
   }
@@ -318,8 +334,12 @@ body {
     margin-top: 150px;
     color: white;
   }
+
+
   
   .cho {
+    height: auto;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin-right: 2px;
@@ -335,17 +355,19 @@ body {
   .article {
     margin-right: 20px;
   }
+
   .deco {
     text-decoration: none;
     color: rgba(235, 116, 29, 1);
   }
   
   .client {
-    height: 90vh;
-    width: 190vh;
+    height: auto;
+    max-width: 100%;
     margin-left: 3.5%;
     display: flex;
     margin-top: 80px;
+
   }
   
   .client h3 {
@@ -437,41 +459,19 @@ body {
   }
   
   .partenaires {
-    height: 28vh;
-    width: 190vh;
+    height: 200px;
+    max-width: 100%;
     background-color: rgba(196, 196, 196, 0.1);
     margin-left: 3.5%;
     display: flex;
     background-position: center;
     align-items: center;
     justify-content: space-around;
+    margin-top: 30px;
+
   }
   
-  .line1 {
-    border-left: 1px solid black;
-    height: 28vh;
-    position: absolute;
-    left: 25%;
-    margin-left: -4px;
-    top: 2647px;
-  }
-  .line2 {
-      border-left: 1px solid black;
-      height: 28vh;
-      position: absolute;
-      left: 50%;
-      margin-left: -4px;
-      top: 2647px;
-  
-  }
-  .line3 {
-    border-left: 1px solid black;
-    height: 28vh;
-    position: absolute;
-    left: 75%;
-    margin-left: -4px;
-    top: 2647px;
-  }
+
   
   .sp1 {
     height: 130px;
@@ -508,10 +508,12 @@ body {
   .maps {
     margin-left: 3.5%;
     margin-top: 30px;
+    max-width: 100%;
+
   }
   .formulaire {
-    height: 450px;
-    width: 1338px;
+    height: auto;
+    max-width: 100%;
     margin-top: 30px;
     display: flex;
   }
@@ -523,6 +525,7 @@ body {
     background-position: center;
     background-size: contain;
     margin-left: 3.5%;
+
   }
   
   .bloc2 {
@@ -537,36 +540,21 @@ body {
   
   
   .recb {
-    width: 487px;
+    width: 500px;
     height: 200px;
-    background: white;
+    background: rgb(224, 216, 216);
     border: 2px rgb(31, 8, 8);
     margin-top: 305px;
     display: flex;
   }
   
-  .line {
-    border-left: 2px solid rgba(250, 199, 21, 1);
-    height: 28vh;
-    position: absolute;
-    left: 50%;
-    margin-left: -400px;
-    top: 3710px;
-  }
-  
+
   .txte {
     margin-left: 4%;
     margin-top: 20px;
   }
   
-  .line2 {
-    border-left: 2px solid rgba(250, 199, 21, 1);
-    height: 28vh;
-    position: absolute;
-    left: 50%;
-    margin-left: -620px;
-    top: 3710px;
-  }
+
   
   .ln1 {
     display: flex;
@@ -665,12 +653,34 @@ body {
   }
   
   footer{
-      margin-top: 80px;
+
       margin-left: 3.5%;
       background-color: white;
       width: 1260px;
       height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 20px;
+
   }
+
+  footer a {
+      color: black;
+      text-decoration: none;
+      margin-right: 10px;
+    
+  }
+   
+  footer a:hover{
+      color: rgba(235, 116, 29, 1);
+  }
+
+  footer .footer:hover{
+    color: rgba(235, 116, 29, 1);;
+
+  }
+
   .footer{
       color: black;
       margin-left: 10px;
