@@ -249,6 +249,7 @@ header h1 {
   background-size: contain;
   background-color: rgba(91, 27, 173, 1);
   border-radius: 20px;
+  margin-left: 20px;
 }
 .rond1 {
   width: 40px;
@@ -333,6 +334,7 @@ header h1 {
   align-items: center;
   border-radius: 20px;
   justify-content: space-between;
+  margin-left: 20px;
 }
 
 .rond3 {
