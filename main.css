@@ -143,6 +143,7 @@ header h1 {
   background: blueviolet;
   background: url(img/omg.jpg);
   margin-top: 25px;
+  background-size: cover;
 }
 
 .ombre {
